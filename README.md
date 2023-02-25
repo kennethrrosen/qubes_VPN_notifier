@@ -16,7 +16,7 @@ Description=My Notification Service
 After=qubesd.service
 
 [Service]
-ExecStart=/etc/qubes-rpc/my-notification-script
+ExecStart=/etc/qubes-rpc/vpn-notifier.sh
 Type=simple
 
 [Install]
